@@ -12,8 +12,8 @@ if birthday.lower() == "august":
 
 print(f'There are {len(name)} letters in your name.')
 
-numOfClasses = int(input("How many classes are you taking this semester? "))
+numOfClasses = int(input("How many courses are you taking this semester? "))
 
 while n < numOfClasses:
-    print(n)
     n = n + 1
+    input (f"What is the name of course {(n)}? ")
